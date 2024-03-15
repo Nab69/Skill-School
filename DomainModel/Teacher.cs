@@ -9,6 +9,12 @@ namespace DomainModel
     public class Teacher : Person
     {
         public string Discipline { get; set; } = null!;
+
         public int Salary { get; set; }
+
+        // propriété de navigation + fk
+        public Classroom? Classroom { get; set; }
+
+        public int? ClassroomID { get; set; }
     }
 }
