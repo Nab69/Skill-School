@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "Dal\Dal.csproj", "{49280224-012A-4C8A-B611-92BD36C83048}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{90A3117E-6FA2-45E3-BC5E-25C21A3070AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{49280224-012A-4C8A-B611-92BD36C83048}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49280224-012A-4C8A-B611-92BD36C83048}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49280224-012A-4C8A-B611-92BD36C83048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A3117E-6FA2-45E3-BC5E-25C21A3070AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A3117E-6FA2-45E3-BC5E-25C21A3070AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A3117E-6FA2-45E3-BC5E-25C21A3070AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A3117E-6FA2-45E3-BC5E-25C21A3070AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
