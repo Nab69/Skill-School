@@ -13,6 +13,7 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             //TestDb();
+            Queries();
             Console.WriteLine("Hello, World!");
         }
 
