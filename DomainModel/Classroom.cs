@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DomainModel
 {
@@ -7,6 +8,9 @@ namespace DomainModel
     {
         public int ClassroomID { get; set; }
 
+        [Required]
+        [StringLength(30)]
+        [Column("classname")]
         public string Name { get; set; } = null!;
 
         public int Floor { get; set; }
