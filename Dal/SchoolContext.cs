@@ -10,6 +10,16 @@ namespace Dal
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Classroom> Classrooms { get; set; }
 
+        public SchoolContext()
+            : base()
+        {
+        }
+
+        public SchoolContext(DbContextOptions options)
+            : base(options)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
